@@ -35,9 +35,9 @@
 - C chỉ lưu vị trí và độ dài của URL trong một vùng nhớ chung
     
         Vùng nhớ:  [https://ex.com\nhttp://evil.com\n...]
-            ↑               ↑
-            offset=0        offset=15
-            length=14       length=14
+                    ↑               ↑
+                    offset=0        offset=15
+                    length=14       length=14
         views[0] = {offset: 0,  length: 14}
         views[1] = {offset: 15, length: 14}
         ...
