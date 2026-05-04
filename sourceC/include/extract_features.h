@@ -63,7 +63,7 @@ typedef struct {
 } StringView;
 DLL_EXPORT int extract(const char *url, UrlFeatures *res);
 DLL_EXPORT int features_to_array(const UrlFeatures *f, double *arr, int n);
-DLL_EXPORT void extract_batch(const char *raw_buffer, const StringView *views, double *out_features, int count, int n_threads);
+DLL_EXPORT void extract_batch(const char *raw_buffer, const StringView *views, double *res, int count, int n_threads);
 #ifdef __cplusplus
 }
 #endif
